@@ -1,0 +1,4 @@
+
+
+
+typedef bool EstadoFoco;
