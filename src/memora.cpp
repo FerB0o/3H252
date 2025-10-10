@@ -41,9 +41,7 @@ char b = (char)a;
 cout<<b<<endl;
 
 
-//punteros en C y c++
-int* dirA = (int*)malloc(sizeof(int));
-int* dirB = new int;
+
 
 return 0;
 
