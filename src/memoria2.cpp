@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(   )
+int main()
 {
     cout<<"Tamano de int " << sizeof(int) << endl;
     cout<<"Tamano de long " << sizeof(long) << endl;
@@ -16,14 +16,14 @@ int main(   )
     cout<<"Tamano de byte " << sizeof(byte) << endl;
     cout<<"Tamano de bool " << sizeof(bool) << endl;
 
-    cout<<"Tamano de puntero " << sizeof(int*) << endl
+    cout<<"Tamano de puntero " << sizeof(int*) << endl;
 
 //punteros en C y c++
-int* dirA = (int*)malloc(sizeof(int));
+int* dirA = (int*)malloc(sizeof(int));//C
 int* dirB = new int;
 
-cout << dirA <<endl;
-
+cout << "dirA:"<< *dirA <<endl;
+cout << *dirB <<endl;
 
     return 0;
 }
