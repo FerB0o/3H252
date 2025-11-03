@@ -156,7 +156,7 @@ public:
         for (int i = 0; i < 5; i++)
             for (int j = 0; j < 3; j++)
                 aliens.emplace_back(10 + i * 10, 3 + j * 5);
-    }
+}
 
     void Iniciar() {
         while (true) {
