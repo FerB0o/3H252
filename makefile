@@ -1,5 +1,5 @@
-run : bin/ejemplo
-	./bin/ejemplo
+run : bin/Animacion
+	./bin/Animacion
 
-bin/ejemplo : src/ejemplo.cpp
-	c++ src/ejemplo.cpp -o bin/ejemplo -lftxui-screen
+bin/Animacion: src/Animacion.cpp
+	c++ src/Animacion.cpp -o bin/Animacion -lftxui-screen
