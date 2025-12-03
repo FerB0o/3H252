@@ -1,6 +1,6 @@
-# PacRow
+# PacMan
 ## Description
-PacRow is a two-player game inspired by Pacman. One player controls Pacman, while the other controls the ghost. The goal is to avoid collision or catch Pacman.
+PacMan is a two-player game inspired by Pacman. One player controls Pacman, while the other controls the ghost. The goal is to avoid collision or catch Pacman.
 
 ## How to Play
 - Player 1 (Pacman): Use `W`, `A`, `S`, `D` keys to move.
